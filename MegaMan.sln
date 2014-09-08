@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaMan.Web", "MegaMan.Web\MegaMan.Web.csproj", "{780E3481-2E75-4F2C-937C-9C4BCAEF6854}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaMan.Db", "MegaMan.Db\MegaMan.Db.csproj", "{55944664-DBE9-4436-B3FD-6F5863E85EDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MegaMan.DataModels", "MegaMan.DataModels\MegaMan.DataModels.csproj", "{C500932F-E518-401B-B29F-438FFFA59EF2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{780E3481-2E75-4F2C-937C-9C4BCAEF6854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{780E3481-2E75-4F2C-937C-9C4BCAEF6854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{780E3481-2E75-4F2C-937C-9C4BCAEF6854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{780E3481-2E75-4F2C-937C-9C4BCAEF6854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55944664-DBE9-4436-B3FD-6F5863E85EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55944664-DBE9-4436-B3FD-6F5863E85EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55944664-DBE9-4436-B3FD-6F5863E85EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55944664-DBE9-4436-B3FD-6F5863E85EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C500932F-E518-401B-B29F-438FFFA59EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C500932F-E518-401B-B29F-438FFFA59EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C500932F-E518-401B-B29F-438FFFA59EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C500932F-E518-401B-B29F-438FFFA59EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,13 @@
+﻿@model MegaMan.DataModels.Villan
+@{
+	ViewBag.Title = "UpdateVillan";
+}
+
+
+<h1>Update Villian</h1>
+<form method="post">
+	<input type="text" class="form-control" name="name" value="@Model.Name" />
+	<input type="text" class="form-control" name="image" value="@Model.Image" />
+	<input type="hidden" name="Id" value="@Model.Id">
+	<input type="submit" class="btn btn-sm btn-success" />
+</form>

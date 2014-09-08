@@ -1,0 +1,32 @@
+﻿@model List<MegaMan.DataModels.Villan>
+
+<div class="jumbotron">
+	<h1 class="text-center">MegaMan Villians</h1>
+
+	@using (Html.BeginForm())
+	{
+		<p>
+			Search By Name: @Html.TextBox("SearchString")
+			<input type="submit" value="Search" />
+		</p>
+	}
+	@*ADDED THIS BEFORE ADDING SORT SO I HAD TO CHANGE IT
+	<form method="post">
+		<input type="search" name="search" placeholder="Search without Button"/>
+	</form>*@
+	<a class="btn btn-primary btn-sm pull-right" href="/Home/AddVillan">Add Villian</a>
+</div>
+
+<table class="table table-hover">
+	<tr>
+		<th>@Html.ActionLink("Name", "Index", new { sortOrder = ViewBag.NameSortParm })</th>
+		<th >Image</th>
+	</tr>
+	@foreach (var m in Model)
+	{
+		<tr onclick="location.href='/Home/Details/@m.Id'">
+			<td>@m.Name</td>
+			<td><img src="@m.Image" style="width:200px; height:250px" /></td>
+		</tr>
+	}
+</table>

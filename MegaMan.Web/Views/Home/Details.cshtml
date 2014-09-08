@@ -1,0 +1,13 @@
+﻿@model MegaMan.Web.Models.VillanDetailsVM
+<div class="container">
+	<div class="row">
+		<h1>@Model.Villan.Name</h1>
+		<img class="img-responsive" src="@Model.Villan.Image" style="width:300px; height:350px" />
+	</div>
+	<button class="btn btn-primary pull-right" onclick="location.href='/Home/UpdateVillan/@Model.Villan.Id'">Update Villian</button>
+
+	<form method="post" action="/Home/DeleteVillan">
+		<input type="hidden" name="id" value="@Model.Villan.Id" />
+		<input class="btn btn-danger pull-right" type="submit" value="Kill Villan" />
+	</form>
+</div>
